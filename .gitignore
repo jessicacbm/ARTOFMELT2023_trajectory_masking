@@ -1,0 +1,10 @@
+.ipynb_checkpoints/
+graphs: misc outputs/
+HYSPLIT/
+literature/
+plan/
+poster_stuff/
+._*
+.gitignore.swp
+*.nc
+.DS_Store
