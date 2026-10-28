@@ -21,17 +21,6 @@ def closest_icecoord(value, search_array):
     closest_value = search_array[np.argmin(value_dif)]
     return closest_value
 
-def determine_ice_coord(closest_x, closest_y, ice_data):
-    """
-    Determine the ice coodrdinate at that location from the ice data.
-    Inputs:
-    - closest_x, closest_y: the closest x and y coordinates held in the ice data netCDF file.
-    Outputs:
-    - z: the ice coordinate that corresponds to these coordinates.
-    """
-    z = ice_data['z'].sel(x=closest_x, y=closest_y).values
-    return z
-
 def ice_interpolation(x,y):
     """
     Finding the squared distance of an x-y coordinate in the stereographic projection from the origin (which is 0,0).
