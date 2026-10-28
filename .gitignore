@@ -10,3 +10,4 @@ poster_stuff/
 .DS_Store
 ens_7days.csv
 ens_7days_recent.csv
+__pycache__
