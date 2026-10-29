@@ -24,6 +24,10 @@ def closest_icecoord(value, search_array):
 def ice_interpolation(x,y):
     """
     Finding the squared distance of an x-y coordinate in the stereographic projection from the origin (which is 0,0).
+    Inputs:
+    - x, y: the North Polar Stereographic x and y coordinates of the point
+    Outputs:
+    - the distance of that coordinate from the origin (North Pole)
     """
     return np.sqrt(x**2 + y**2)
 
@@ -34,12 +38,13 @@ def ice_mask(closest_x, closest_y, z, thresh):
     Inputs:
     - closest_x, closest_y, the closest ice coordinate to the trajectory coordinate.
     - z: the corresponding ice coordinate
+    - thresh: if z > thresh then z is determined to be ice, otherwise not ice.
     Outputs:
     - 1 if attributed to sea-ice, 0 if not sea-ice.
     """
     near_pole = ice_interpolation(closest_x, closest_y) < 325052.227135
-   # pole_hole = near_pole & np.isnan(z)
-    return (near_pole | (z >= thresh)).astype(int)
+    pole_hole = near_pole & np.isnan(z)
+    return (pole_hole | (z >= thresh)).astype(int)
 
 """
 Land masking functions
