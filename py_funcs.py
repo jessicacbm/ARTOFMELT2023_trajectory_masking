@@ -23,7 +23,7 @@ def closest_icecoord(value, search_array):
 
 def ice_interpolation(x,y):
     """
-    Finding the squared distance of an x-y coordinate in the stereographic projection from the origin (which is 0,0).
+    Finding the distance of an x-y coordinate in the stereographic projection from the origin (which is 0,0).
     Inputs:
     - x, y: the North Polar Stereographic x and y coordinates of the point
     Outputs:
