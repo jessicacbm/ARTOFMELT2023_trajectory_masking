@@ -7,7 +7,7 @@ HYSPLIT ensembles were run locally using the pysplit python package. The ensembl
 
 Sea-ice data was obtained via FTP from the University of Bremen and can be found by following the link: https://data.seaice.uni-bremen.de/amsr2/asi_daygrid_swath/n6250/
 
-The masked trajectory data is available at the Bolin Centre Database: https://doi.org/10.17043/oden-artofmelt-2023-hysplit-1 Please contact lead author Jessica Matthew at jessica.matthew@wadham.ox.ac.uk if you have any further questions.
+The masked trajectory data is available at the Bolin Centre Database: https://doi.org/10.17043/oden-artofmelt-2023-hysplit-1
 
 ### References
 
