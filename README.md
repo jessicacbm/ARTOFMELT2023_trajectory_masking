@@ -11,20 +11,15 @@ The masked trajectory data is available at the Bolin Centre Database: https://do
 
 ### References
 
-#### HYSPLIT can be found on the following websites:
-
 Draxler, R.R. and Rolph, G.D., 2017. HYSPLIT (HYbrid Single-Particle Lagrangian Integrated Trajectory) Model access via NOAA ARL READY Website (http://www.ready.noaa.gov/HYSPLIT.php). NOAA Air Resources Laboratory, Silver Spring, MD.
 
 Rolph, G., Stein, A., and Stunder, B., 2017. Real-time Environmental Applications and Display sYstem: READY. Environmental Modelling & Software, 95, 210-228, https://doi.org/10.1016/j.envsoft.2017.06.025.(http://www.sciencedirect.com/science/article/pii/S1364815217302360).
 
-#### HYSPLIT development papers and references:
 Stein, A.F., R.R. Draxler, G.D. Rolph, B.J.B. Stunder, M.D. Cohen, and F. Ngan , 2015. NOAA's HYSPLIT atmospheric transport and dispersion modelling system, Bulletin of the American Meteorological Society. [https://doi.org/ http://dx.doi.org/10.1175/BAMS-D-14-00110.1](https://doi.org/ http://dx.doi.org/10.1175/BAMS-D-14-00110.1)
 
 Draxler, R.R. and G.D. Hess, 1998, An overview of the HYSPLIT_4 modelling system for trajectories, dispersion and deposition, Aust. Met. Mag., 47, 295-308.
 
 Draxler, R.R. and G.D. Hess, 1997, Description of the HYSPLIT_4 modelling system, NOAA Technical Memorandum ERL ARL-224, December, 24 p.
-
-#### University of Bremen Sea-Ice Data References:
 
 Spreen, G., Kaleschke, L. and Heygster, G. (2008), Sea ice remote sensing using AMSR-E 89 GHz channels, J. Geophys. Res., 113, C02S03, https://doi.org/10.1029/2005JC003384.
 
